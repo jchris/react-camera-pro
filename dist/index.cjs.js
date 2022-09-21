@@ -28,12 +28,12 @@ function __makeTemplateObject(cooked, raw) {
     return cooked;
 }
 
-var Wrapper = styled.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n"])));
+var Wrapper = styled.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n"], ["\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n"])));
 var Container = styled.div(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n  width: 100%;\n  ", "\n"], ["\n  width: 100%;\n  ",
     "\n"])), function (_a) {
     var aspectRatio = _a.aspectRatio;
     return aspectRatio === 'cover'
-        ? "\n    position: absolute;\n    bottom: 0;\n    top: 0;\n    left: 0;\n    right: 0;"
+        ? "\n    bottom: 0;\n    top: 0;\n    left: 0;\n    right: 0;"
         : "\n    position: relative;\n    padding-bottom: " + 100 / aspectRatio + "%;";
 });
 var ErrorMsg = styled.div(templateObject_3 || (templateObject_3 = __makeTemplateObject(["\n  padding: 40px;\n"], ["\n  padding: 40px;\n"])));
