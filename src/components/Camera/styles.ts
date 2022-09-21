@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import { AspectRatio } from './types';
 
 export const Wrapper = styled.div`
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -14,7 +13,6 @@ export const Container = styled.div<{ aspectRatio: AspectRatio }>`
   ${({ aspectRatio }) =>
     aspectRatio === 'cover'
       ? `
-    position: absolute;
     bottom: 0;
     top: 0;
     left: 0;
